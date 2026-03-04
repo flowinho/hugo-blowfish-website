@@ -5,7 +5,7 @@ tags:
 - iPhone
 ---
 
-> [!info] Was bedeutet das für mich als Freund:in, Angehörige:r oder Verwandten?
+> [!caution] Was bedeutet das für mich als Freund:in, Angehörige:r oder Verwandten?
 > Ruf mich an, statt mir zu schreiben. Gut möglich, dass ich deine Nachricht mit einer enormen Verzögerung lese.
 
 Ich möchte diesen Blogpost nutzen, um Freunde, Bekannte, Verwandte – aber auch andere Menschen, die das hier lesen – darüber zu informieren, dass ich auf meinem Haupthandy keine Messenger mehr installiert habe. Das bedeutet konkret: kein WhatsApp, kein Signal, keine iMessage, keine E-Mails, kein Matrix, kein Threema – nichts davon.
