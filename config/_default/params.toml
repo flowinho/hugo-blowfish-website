@@ -42,7 +42,7 @@ cardView = true
 cardViewScreenWidth = false
 layoutBackgroundBlur = true
 disableHeroImageFilter = false
-homepageImage = "img/animatedBackground.svg"
+homepageImage = "img/animatedbackground.svg"
 
 [article]
 showDate = true
