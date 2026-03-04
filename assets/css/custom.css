@@ -1,0 +1,24 @@
+/* Override Blowfish header logo styling without changing theme files. */
+.main-menu span.logo,
+.main-menu img.logo {
+  width: 2rem;
+  height: 2rem;
+  overflow: hidden;
+  border-radius: 9999px;
+}
+
+.main-menu span.logo {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-menu img.logo {
+  display: block;
+  object-fit: cover;
+}
+
+.main-menu span.logo svg {
+  width: 100%;
+  height: 100%;
+}

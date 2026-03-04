@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-label="Abendhimmel mit sanft atmenden Wolken, ziehenden Vögeln und langsam driftender Abendstimmung">
+  <defs>
+    <!-- Base sky -->
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1b2a6b"></stop>
+      <stop offset="35%" stop-color="#6a2c7c"></stop>
+      <stop offset="60%" stop-color="#ff6a3d"></stop>
+      <stop offset="78%" stop-color="#ffb36b"></stop>
+      <stop offset="100%" stop-color="#ffd7a6"></stop>
+    </linearGradient>
+
+    <!-- Warmer dusk tint that fades in/out -->
+    <linearGradient id="duskTint" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0b143a" stop-opacity="0.25"></stop>
+      <stop offset="45%" stop-color="#6a2c7c" stop-opacity="0.12"></stop>
+      <stop offset="72%" stop-color="#ff6a3d" stop-opacity="0.18"></stop>
+      <stop offset="100%" stop-color="#ffb36b" stop-opacity="0.05"></stop>
+    </linearGradient>
+
+    <!-- Soft blur for clouds -->
+    <filter id="cloudBlur" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6"></feGaussianBlur>
+    </filter>
+
+    <!-- Cloud shape -->
+    <g id="cloudShape">
+      <path d="M60 55
+               C45 55 34 44 34 30
+               C34 18 43 8 56 8
+               C62 8 68 10 72 14
+               C77 5 87 0 98 0
+               C114 0 127 12 127 27
+               C127 28 127 29 127 30
+               C132 26 139 24 146 24
+               C162 24 175 36 175 52
+               C175 68 162 80 146 80
+               L60 80
+               C44 80 31 67 31 51
+               C31 37 42 26 56 26
+               C58 26 60 26 62 27
+               C60 33 60 39 60 55 Z" fill="#ffffff"></path>
+    </g>
+
+    <!-- A soft “sunset glow” wash we can pulse slightly -->
+    <radialGradient id="glowWash" cx="50%" cy="80%" r="60%">
+      <stop offset="0%" stop-color="#ffd7a6" stop-opacity="0.22"></stop>
+      <stop offset="45%" stop-color="#ff6a3d" stop-opacity="0.10"></stop>
+      <stop offset="100%" stop-color="#ff6a3d" stop-opacity="0"></stop>
+    </radialGradient>
+  </defs>
+
+  <!-- Sky base -->
+  <rect width="1600" height="900" fill="url(#sky)"></rect>
+
+  <!-- Slowly drifting mood overlay (opacity anim) -->
+  <rect width="1600" height="900" fill="url(#duskTint)">
+    <animate attributeName="opacity" values="0.15;0.28;0.18;0.32;0.15" dur="180s" repeatCount="indefinite"></animate>
+  </rect>
+
+  <!-- Subtle warm glow that “breathes” very slowly -->
+  <circle cx="800" cy="720" r="650" fill="url(#glowWash)" opacity="0.25">
+    <animate attributeName="opacity" values="0.18;0.28;0.20" dur="140s" repeatCount="indefinite"></animate>
+  </circle>
+
+  <!-- Clouds layer 1 -->
+  <g filter="url(#cloudBlur)" opacity="0.35">
+    <g>
+      <g transform="translate(-500,120) scale(1.2)">
+        <use href="#cloudShape" x="0"></use>
+        <use href="#cloudShape" x="340" y="40" transform="scale(0.85)"></use>
+        <use href="#cloudShape" x="720" y="-10" transform="scale(1.05)"></use>
+        <animateTransform attributeName="transform" type="translate" from="-500 120" to="1700 120" dur="180s" repeatCount="indefinite"></animateTransform>
+      </g>
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 -8; 0 0" dur="40s" repeatCount="indefinite"></animateTransform>
+      <!-- very subtle cloud brightness drift -->
+      <animate attributeName="opacity" values="0.33;0.38;0.34" dur="110s" repeatCount="indefinite"></animate>
+    </g>
+  </g>
+
+  <!-- Clouds layer 2 -->
+  <g filter="url(#cloudBlur)" opacity="0.45">
+    <g>
+      <g transform="translate(-800,210) scale(1.5)">
+        <use href="#cloudShape" x="0"></use>
+        <use href="#cloudShape" x="420" y="-20" transform="scale(0.9)"></use>
+        <use href="#cloudShape" x="860" y="30" transform="scale(1.1)"></use>
+        <animateTransform attributeName="transform" type="translate" from="-800 210" to="1700 210" dur="140s" repeatCount="indefinite"></animateTransform>
+      </g>
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 -12; 0 0" dur="55s" repeatCount="indefinite"></animateTransform>
+      <animate attributeName="opacity" values="0.42;0.48;0.44" dur="130s" repeatCount="indefinite"></animate>
+    </g>
+  </g>
+
+  <!-- Clouds layer 3 -->
+  <g filter="url(#cloudBlur)" opacity="0.55">
+    <g>
+      <g transform="translate(-900,80) scale(2.0)">
+        <use href="#cloudShape"></use>
+        <use href="#cloudShape" x="520" y="15" transform="scale(0.95)"></use>
+        <use href="#cloudShape" x="1050" y="-5" transform="scale(1.08)"></use>
+        <animateTransform attributeName="transform" type="translate" from="-900 80" to="1750 80" dur="110s" repeatCount="indefinite"></animateTransform>
+      </g>
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 -18; 0 0" dur="70s" repeatCount="indefinite"></animateTransform>
+      <animate attributeName="opacity" values="0.52;0.58;0.54" dur="150s" repeatCount="indefinite"></animate>
+    </g>
+  </g>
+
+  <!-- Birds moving in arcs -->
+  <g fill="none" stroke="#1a0f24" stroke-width="3" stroke-linecap="round" opacity="0.35">
+    <g>
+      <path d="M0 0 q20 -18 40 0 q-20 -10 -40 0"></path>
+      <animateMotion dur="60s" repeatCount="indefinite" rotate="auto">
+        <mpath>
+          <path d="M-200 450 C300 200, 1300 300, 1800 150"></path>
+        </mpath>
+      </animateMotion>
+      <!-- tiny wingbeat: scale in Y, very subtle -->
+      <animateTransform attributeName="transform" type="scale" values="1 1; 1 0.92; 1 1" dur="1.8s" repeatCount="indefinite"></animateTransform>
+    </g>
+
+    <g>
+      <path d="M0 0 q16 -14 32 0 q-16 -8 -32 0"></path>
+      <animateMotion dur="75s" begin="10s" repeatCount="indefinite" rotate="auto">
+        <mpath>
+          <path d="M-300 500 C400 250, 1200 350, 1900 220"></path>
+        </mpath>
+      </animateMotion>
+      <animateTransform attributeName="transform" type="scale" values="1 1; 1 0.90; 1 1" dur="2.2s" repeatCount="indefinite"></animateTransform>
+    </g>
+  </g>
+
+  <!-- Very subtle vignette to keep focus -->
+  <rect width="1600" height="900" fill="#000" opacity="0.08"></rect>
+</svg>

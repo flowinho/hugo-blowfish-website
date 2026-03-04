@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>IOS on florianschuttkowski.com</title>
+    <link>http://localhost:1313/tags/ios/</link>
+    <description>Recent content in IOS on florianschuttkowski.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de</language>
+    <managingEditor>contact@florianschuttkowski.com (Florian Schuttkowski)</managingEditor>
+    <webMaster>contact@florianschuttkowski.com (Florian Schuttkowski)</webMaster>
+    <copyright>Copyright 2026 Florian Schuttkowski</copyright>
+    <lastBuildDate>Tue, 03 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/ios/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Halide Mark III - Ein Erfahrungsbericht</title>
+      <link>http://localhost:1313/posts/halide-erfahrungsbericht/</link>
+      <pubDate>Tue, 03 Mar 2026 00:00:00 +0000</pubDate>
+      <author>contact@florianschuttkowski.com (Florian Schuttkowski)</author>
+      <guid>http://localhost:1313/posts/halide-erfahrungsbericht/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/halide-erfahrungsbericht/featured.png" />
+    </item>
+    
+  </channel>
+</rss>
