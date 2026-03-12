@@ -47,7 +47,7 @@ title = "florianschuttkowski.com"
 #     { lastfm = "https://lastfm.com/user/username" },
      
      { mastodon = "https://chaos.social/@username" },
-#     { matrix = "https://matrix.to/#/URI" },
+     { matrix = "https://matrix.to/#/@shouldcophskee:matrix.org" },
 #     { medium = "https://medium.com/username" },
 #     { microsoft = "https://www.microsoft.com/" },
 #     { orcid = "https://orcid.org/userid" },
