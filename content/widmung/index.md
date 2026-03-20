@@ -19,5 +19,5 @@ Wie schön, dass es euch gibt. Ich kann mir die Welt ohne euch nicht mehr vorste
 Mein Ja zu eurem Vater, ist auch mein Ja zu euch.
 {{< /lead >}}
 
-Manchmal hat man Glück im Leben. Und seltener passiert das Unglaublichste: Man begegnet einer Frau, deren Herz so groß ist, deren Güte und Liebe so umfassend ist, dass man das wertvollste, was man besitzt, in ihre Obhut geben kann und darf: Die eigenen Kinder. 
+Manchmal hat man Glück im Leben. Und seltener passiert das Unglaublichste: Man begegnet einer Frau, deren Herz so groß ist, deren Güte und Liebe so umfassend ist, dass man das Wertvollste, was man besitzt, in ihre Obhut geben kann und darf: Die eigenen Kinder. 
 Danke, dass du eine solch unglaubliche geduldige, liebevolle, verständnisvolle, starke und Halt gebende Bezugsperson für die Herzen meiner Töchter bist. Danke, für dich. 
