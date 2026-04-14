@@ -17,9 +17,9 @@ title = "florianschuttkowski.com"
 [params.author]
   name = "Florian Schuttkowski"
   email = "contact@florianschuttkowski.com"
-   image = "img/foto.jpeg"
+  image = "img/foto.jpeg"
   imageQuality = 96
-  headline = "Software Engineer, Product Owner, Podcaster, Verlobter & Vater aus Ludwigsburg im Ländle."
+  headline = "IT Dude, Podcaster, Verlobter & Vater aus Ludwigsburg im Ländle."
   bio = "Software Engineer, Product Owner, Podcaster, Verlobter & Vater aus Ludwigsburg im Ländle. Die Gedanken hier sind meine Eigenen und respräsentieren nicht die Meinungen meiner Arbeitgeber und / oder Kunden."
    links = [
      { email = "mailto:contact@florianschuttkowski.com" },

@@ -1,0 +1,270 @@
+<svg viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Animated SNES-style pixel clouds moving through a sky">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#79beff"/>
+      <stop offset="55%" stop-color="#aeddff"/>
+      <stop offset="100%" stop-color="#e6f7ff"/>
+    </linearGradient>
+
+    <!-- SNES-like cloud palette -->
+    <g id="cloudSmall">
+      <g fill="#d8ecff">
+        <rect x="20" y="4" width="8" height="8"/>
+        <rect x="28" y="4" width="8" height="8"/>
+        <rect x="36" y="4" width="8" height="8"/>
+        <rect x="12" y="12" width="8" height="8"/>
+        <rect x="20" y="12" width="8" height="8"/>
+        <rect x="28" y="12" width="8" height="8"/>
+        <rect x="36" y="12" width="8" height="8"/>
+        <rect x="44" y="12" width="8" height="8"/>
+        <rect x="52" y="12" width="8" height="8"/>
+        <rect x="12" y="20" width="8" height="8"/>
+        <rect x="20" y="20" width="8" height="8"/>
+        <rect x="28" y="20" width="8" height="8"/>
+        <rect x="36" y="20" width="8" height="8"/>
+        <rect x="44" y="20" width="8" height="8"/>
+        <rect x="52" y="20" width="8" height="8"/>
+        <rect x="20" y="28" width="8" height="8"/>
+        <rect x="28" y="28" width="8" height="8"/>
+        <rect x="36" y="28" width="8" height="8"/>
+        <rect x="44" y="28" width="8" height="8"/>
+      </g>
+      <g fill="#ffffff">
+        <rect x="20" y="12" width="8" height="8"/>
+        <rect x="28" y="12" width="8" height="8"/>
+        <rect x="36" y="12" width="8" height="8"/>
+        <rect x="20" y="20" width="8" height="8"/>
+        <rect x="28" y="20" width="8" height="8"/>
+        <rect x="36" y="20" width="8" height="8"/>
+        <rect x="44" y="20" width="8" height="8"/>
+      </g>
+      <g fill="#f4fbff">
+        <rect x="28" y="4" width="8" height="8"/>
+        <rect x="36" y="4" width="8" height="8"/>
+        <rect x="44" y="12" width="8" height="8"/>
+        <rect x="52" y="12" width="8" height="8"/>
+        <rect x="44" y="28" width="8" height="8"/>
+      </g>
+    </g>
+
+    <g id="cloudWide">
+      <g fill="#d8ecff">
+        <rect x="24" y="0" width="8" height="8"/>
+        <rect x="32" y="0" width="8" height="8"/>
+        <rect x="40" y="0" width="8" height="8"/>
+        <rect x="48" y="0" width="8" height="8"/>
+
+        <rect x="8" y="8" width="8" height="8"/>
+        <rect x="16" y="8" width="8" height="8"/>
+        <rect x="24" y="8" width="8" height="8"/>
+        <rect x="32" y="8" width="8" height="8"/>
+        <rect x="40" y="8" width="8" height="8"/>
+        <rect x="48" y="8" width="8" height="8"/>
+        <rect x="56" y="8" width="8" height="8"/>
+        <rect x="64" y="8" width="8" height="8"/>
+
+        <rect x="0" y="16" width="8" height="8"/>
+        <rect x="8" y="16" width="8" height="8"/>
+        <rect x="16" y="16" width="8" height="8"/>
+        <rect x="24" y="16" width="8" height="8"/>
+        <rect x="32" y="16" width="8" height="8"/>
+        <rect x="40" y="16" width="8" height="8"/>
+        <rect x="48" y="16" width="8" height="8"/>
+        <rect x="56" y="16" width="8" height="8"/>
+        <rect x="64" y="16" width="8" height="8"/>
+        <rect x="72" y="16" width="8" height="8"/>
+
+        <rect x="8" y="24" width="8" height="8"/>
+        <rect x="16" y="24" width="8" height="8"/>
+        <rect x="24" y="24" width="8" height="8"/>
+        <rect x="32" y="24" width="8" height="8"/>
+        <rect x="40" y="24" width="8" height="8"/>
+        <rect x="48" y="24" width="8" height="8"/>
+        <rect x="56" y="24" width="8" height="8"/>
+        <rect x="64" y="24" width="8" height="8"/>
+
+        <rect x="24" y="32" width="8" height="8"/>
+        <rect x="32" y="32" width="8" height="8"/>
+        <rect x="40" y="32" width="8" height="8"/>
+        <rect x="48" y="32" width="8" height="8"/>
+      </g>
+      <g fill="#ffffff">
+        <rect x="24" y="8" width="8" height="8"/>
+        <rect x="32" y="8" width="8" height="8"/>
+        <rect x="40" y="8" width="8" height="8"/>
+        <rect x="48" y="8" width="8" height="8"/>
+
+        <rect x="16" y="16" width="8" height="8"/>
+        <rect x="24" y="16" width="8" height="8"/>
+        <rect x="32" y="16" width="8" height="8"/>
+        <rect x="40" y="16" width="8" height="8"/>
+        <rect x="48" y="16" width="8" height="8"/>
+        <rect x="56" y="16" width="8" height="8"/>
+
+        <rect x="24" y="24" width="8" height="8"/>
+        <rect x="32" y="24" width="8" height="8"/>
+        <rect x="40" y="24" width="8" height="8"/>
+        <rect x="48" y="24" width="8" height="8"/>
+      </g>
+      <g fill="#f3faff">
+        <rect x="40" y="0" width="8" height="8"/>
+        <rect x="48" y="0" width="8" height="8"/>
+        <rect x="56" y="8" width="8" height="8"/>
+        <rect x="64" y="8" width="8" height="8"/>
+        <rect x="56" y="24" width="8" height="8"/>
+      </g>
+    </g>
+
+    <g id="cloudTall">
+      <g fill="#d8ecff">
+        <rect x="24" y="0" width="8" height="8"/>
+        <rect x="32" y="0" width="8" height="8"/>
+        <rect x="40" y="0" width="8" height="8"/>
+
+        <rect x="8" y="8" width="8" height="8"/>
+        <rect x="16" y="8" width="8" height="8"/>
+        <rect x="24" y="8" width="8" height="8"/>
+        <rect x="32" y="8" width="8" height="8"/>
+        <rect x="40" y="8" width="8" height="8"/>
+        <rect x="48" y="8" width="8" height="8"/>
+        <rect x="56" y="8" width="8" height="8"/>
+
+        <rect x="0" y="16" width="8" height="8"/>
+        <rect x="8" y="16" width="8" height="8"/>
+        <rect x="16" y="16" width="8" height="8"/>
+        <rect x="24" y="16" width="8" height="8"/>
+        <rect x="32" y="16" width="8" height="8"/>
+        <rect x="40" y="16" width="8" height="8"/>
+        <rect x="48" y="16" width="8" height="8"/>
+        <rect x="56" y="16" width="8" height="8"/>
+        <rect x="64" y="16" width="8" height="8"/>
+
+        <rect x="8" y="24" width="8" height="8"/>
+        <rect x="16" y="24" width="8" height="8"/>
+        <rect x="24" y="24" width="8" height="8"/>
+        <rect x="32" y="24" width="8" height="8"/>
+        <rect x="40" y="24" width="8" height="8"/>
+        <rect x="48" y="24" width="8" height="8"/>
+        <rect x="56" y="24" width="8" height="8"/>
+
+        <rect x="16" y="32" width="8" height="8"/>
+        <rect x="24" y="32" width="8" height="8"/>
+        <rect x="32" y="32" width="8" height="8"/>
+        <rect x="40" y="32" width="8" height="8"/>
+        <rect x="48" y="32" width="8" height="8"/>
+      </g>
+      <g fill="#ffffff">
+        <rect x="24" y="8" width="8" height="8"/>
+        <rect x="32" y="8" width="8" height="8"/>
+        <rect x="40" y="8" width="8" height="8"/>
+
+        <rect x="16" y="16" width="8" height="8"/>
+        <rect x="24" y="16" width="8" height="8"/>
+        <rect x="32" y="16" width="8" height="8"/>
+        <rect x="40" y="16" width="8" height="8"/>
+        <rect x="48" y="16" width="8" height="8"/>
+
+        <rect x="24" y="24" width="8" height="8"/>
+        <rect x="32" y="24" width="8" height="8"/>
+        <rect x="40" y="24" width="8" height="8"/>
+      </g>
+      <g fill="#f3faff">
+        <rect x="40" y="0" width="8" height="8"/>
+        <rect x="48" y="8" width="8" height="8"/>
+        <rect x="56" y="8" width="8" height="8"/>
+        <rect x="48" y="32" width="8" height="8"/>
+      </g>
+    </g>
+
+    <g id="cloudPuff">
+      <g fill="#d8ecff">
+        <rect x="16" y="0" width="8" height="8"/>
+        <rect x="24" y="0" width="8" height="8"/>
+
+        <rect x="8" y="8" width="8" height="8"/>
+        <rect x="16" y="8" width="8" height="8"/>
+        <rect x="24" y="8" width="8" height="8"/>
+        <rect x="32" y="8" width="8" height="8"/>
+
+        <rect x="0" y="16" width="8" height="8"/>
+        <rect x="8" y="16" width="8" height="8"/>
+        <rect x="16" y="16" width="8" height="8"/>
+        <rect x="24" y="16" width="8" height="8"/>
+        <rect x="32" y="16" width="8" height="8"/>
+        <rect x="40" y="16" width="8" height="8"/>
+
+        <rect x="8" y="24" width="8" height="8"/>
+        <rect x="16" y="24" width="8" height="8"/>
+        <rect x="24" y="24" width="8" height="8"/>
+        <rect x="32" y="24" width="8" height="8"/>
+      </g>
+      <g fill="#ffffff">
+        <rect x="16" y="8" width="8" height="8"/>
+        <rect x="24" y="8" width="8" height="8"/>
+        <rect x="8" y="16" width="8" height="8"/>
+        <rect x="16" y="16" width="8" height="8"/>
+        <rect x="24" y="16" width="8" height="8"/>
+        <rect x="32" y="16" width="8" height="8"/>
+      </g>
+      <g fill="#f3faff">
+        <rect x="24" y="0" width="8" height="8"/>
+        <rect x="32" y="8" width="8" height="8"/>
+        <rect x="32" y="24" width="8" height="8"/>
+      </g>
+    </g>
+  </defs>
+
+  <rect width="800" height="300" fill="url(#sky)"/>
+
+  <!-- subtle horizon haze -->
+  <rect y="220" width="800" height="80" fill="#dff4ff" opacity="0.35"/>
+
+  <!-- distant clouds -->
+  <g opacity="0.55">
+    <use href="#cloudPuff" transform="translate(-80 46) scale(1)">
+      <animateTransform attributeName="transform" type="translate"
+        from="-80 46" to="860 46" dur="42s" repeatCount="indefinite"/>
+    </use>
+
+    <use href="#cloudSmall" transform="translate(-180 78) scale(0.95)">
+      <animateTransform attributeName="transform" type="translate"
+        from="-180 78" to="860 78" dur="48s" repeatCount="indefinite"/>
+    </use>
+  </g>
+
+  <!-- middle layer -->
+  <g opacity="0.82">
+    <use href="#cloudWide" transform="translate(-140 92) scale(1.15)">
+      <animateTransform attributeName="transform" type="translate"
+        from="-140 92" to="900 92" dur="28s" repeatCount="indefinite"/>
+    </use>
+
+    <use href="#cloudTall" transform="translate(-260 126) scale(1.05)">
+      <animateTransform attributeName="transform" type="translate"
+        from="-260 126" to="900 126" dur="24s" repeatCount="indefinite"/>
+    </use>
+
+    <use href="#cloudPuff" transform="translate(-340 62) scale(1.1)">
+      <animateTransform attributeName="transform" type="translate"
+        from="-340 62" to="900 62" dur="32s" repeatCount="indefinite"/>
+    </use>
+  </g>
+
+  <!-- foreground clouds -->
+  <g opacity="0.98">
+    <use href="#cloudWide" transform="translate(-220 178) scale(1.75)">
+      <animateTransform attributeName="transform" type="translate"
+        from="-220 178" to="980 178" dur="17s" repeatCount="indefinite"/>
+    </use>
+
+    <use href="#cloudSmall" transform="translate(-360 214) scale(2)">
+      <animateTransform attributeName="transform" type="translate"
+        from="-360 214" to="980 214" dur="14s" repeatCount="indefinite"/>
+    </use>
+
+    <use href="#cloudTall" transform="translate(-500 156) scale(1.45)">
+      <animateTransform attributeName="transform" type="translate"
+        from="-500 156" to="960 156" dur="20s" repeatCount="indefinite"/>
+    </use>
+  </g>
+</svg>
